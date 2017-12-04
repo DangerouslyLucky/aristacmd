@@ -1,9 +1,9 @@
 # aristacmd
 
 This script is designed for Arista switches.
-Attempting to recreate the functionality of ciscocmd without using expect
+Attempting to recreate the functionality of ciscocmd without using expect, but rather pyeapi.
 
-Oftentimes we wish to run a command or set of commands against multiple switches at the same time, without the annoyance of logging into each device individually. This is useful to generate reports from show commands or to configure a portion of the network at once.
+Oftentimes we wish to run a command or set of commands against multiple switches at the same time, without the burden of logging into each device individually. This is useful to generate reports from show commands or to configure a portion of the network at once.
 
 Allows input of a single command or multiple commands (via textfile) to be run against a single switch or multiple switches (via textfile)
 
